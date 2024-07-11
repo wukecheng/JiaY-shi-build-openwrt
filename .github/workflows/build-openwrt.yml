@@ -10,11 +10,11 @@ on:
       branch_name:
         description: '分支'     
         required: true
-        default: 'ipq60xx-devel'
+        default: 'ipq60xx-devel_nss'
       config_file:
         description: '配置文件'     
         required: true
-        default: 'gl-ax1800.config' 
+        default: 'jdc_ax1800-pro.nss.config' 
 
 jobs:
   build:
